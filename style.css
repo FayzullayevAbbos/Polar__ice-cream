@@ -1,0 +1,449 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.container1{
+    max-width: 1600px;
+    height: 862px;
+    background-color: #F8EDF0;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(./images/bg-image\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 1125px;
+    height: 79px;   
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 39px;
+}
+a{
+    text-decoration: none;
+    color: #150101;
+}
+a:hover{
+    color: #D23166;
+    
+}
+.home{
+    font-size: 14px;
+    /* color: #150101; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.buy-now{
+    width: 165px;
+    height: 49px;
+    background-color: #D23166;
+    color: white;   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buy-now:hover{
+    background-color: rgb(241, 127, 146);
+}
+.box1{
+    width: 665px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 254px;
+    margin-top: 218px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.box1-1{
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #0F0101;
+}
+.box1-2{
+    font-size: 57.33px; 
+   font-weight: 500px;
+    color: #0F0101;
+}
+.box1-3{
+    font-family: Hind Madurai, serif;
+    font-size: 18px;
+    margin-top: 35px;
+    color: #0F0101;
+    margin-bottom: 50px;
+
+
+
+}
+.ice-cream{
+    font-family: Fredoka One, sans-serif;
+   font-size: 57.33px; 
+   font-weight: 500px;
+    color: #D23166;
+}
+.container2{
+    max-width: 1117px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto;
+    gap: 39px;
+    /* border: 1px solid black; */
+}
+.frame1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* justify-content: center; */
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    border: 1px solid rgb(241, 241, 241);
+
+}
+.frame1-1{
+    font-weight: 600;
+    font-family: Hind Madurai, serif;
+    margin-top: 23px;
+
+
+}
+.frame1-2{
+    font-size: 14px;
+    font-family: Hind Madurai, serif;
+    text-align: center;
+    color: black;
+    opacity: 60%;
+    margin-top: 9px;
+}
+.container3{
+    max-width: 1600px;
+    height: 544.5px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    background-color:  #F8EDF0;
+}
+.brown1{
+    display: flex ;
+    flex-direction: column;
+    margin: 141.39px auto 0 auto;
+
+}
+.brown3{
+    margin-top: 80px;
+}
+.brown1-1{
+    color: #150101;
+    font-family: Hind Madurai, serif;
+    font-size: 44.2px;
+    font-weight: 600;
+    width: 349px;
+    height: 98.27px;
+}
+.brown1-2{
+    color: #150101;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-right: auto;
+    margin-left: auto; */
+    width: 442px;
+    height: 58.16px;
+    margin-top: 16.04px;
+    margin-bottom:35.1px;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    max-width: 1121px;
+    height: 1506px;
+    margin: 0 auto;
+}
+.our-product{
+    color: #150101;
+    font-family: Hind Madurai, serif;
+    font-size: 44.2px;
+    font-weight: 600;
+    margin-top: 137.31px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.second-links{
+    margin: 64px auto 0 auto;
+    font-size: 18px;
+}
+.container4-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cost{
+    color: #000;
+    font-family: Hind Madurai, serif;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.cost2{
+    color: #000;
+    font-family: Hind Madurai, serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.brown11{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+.name1{
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 24px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+}
+.amirican{
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.icon:hover{
+    cursor: pointer;
+    color: brown;
+    background-color: rgb(218, 152, 152);
+
+}
+.container-5{
+    max-width: 1600px;
+    height: 678px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 900px;
+    /* border: 2px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  #F8EDF0;
+    justify-content: space-between;
+    
+}
+.img5{
+    margin-top: 44px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container5-1{
+    margin: 85px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.simple1{
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 44.2px;
+    font-weight: 500;
+   
+}
+.simple2{
+    color: #0F0101;
+    font-family: Roboto, serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.18px;
+    margin-top: 20px ;
+    width: 607px;
+    height: 60px;
+
+}
+.simple3{
+    color: #000;
+    font-family: Roboto, serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 19px;
+ }
+ .app{
+cursor: pointer;
+margin-top: 41px;
+ }
+ .container-6{
+     max-width: 1600px;
+     height: 565px;
+     margin-right: auto;
+     margin-left: auto;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+ .con6-1{
+    width: 522px;
+    height: 123px;
+     margin-top: 111px;
+     color: #000;
+    text-align: center;
+    font-family: Roboto,serif;
+    font-size: 44px;
+    font-weight: 600;
+    margin-right: auto;
+     margin-left: auto;
+ }
+ .con6-2{
+     display: flex;
+     flex-direction: row;
+     gap: 30px;
+     margin: 20px auto;
+     justify-content: center;
+    
+ }
+ .form1-1{
+    width: 303px;
+    height: 74px;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+    background: #FFF;
+    text-align: center;
+ }
+ .con6-3{
+     display: flex;
+     flex-direction: row;
+     margin: 5px auto;
+    width: 637px;
+    height: 74px;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+    background: #FFF;
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.form2-1{
+    color: #0F0000;
+    font-family: Roboto, serif;
+    font-size: 14px;
+   border: none;
+    font-weight: 400;
+    margin-left: 50px;
+  
+}
+.send{
+    width: 134px;
+    height: 74px;
+    border-radius: 5px;
+    background-color: #D64374;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: rgb(211, 109, 126);
+}
+footer{
+    max-width: 1600px;
+    height: 381px;
+    background-color:#0A0808 ;
+    color: white;
+    margin:1px auto 0 auto ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ft-1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 70px;
+
+}
+.ft-2{
+    width: 207px;
+    height: 47px;
+    color: #FFF;
+    font-family: Roboto, serif;
+    font-size: 12px;
+   font-weight: 400;
+    line-height: 139.687%; /* 16.762px */
+    letter-spacing: 0.12px;
+}
+.ft-44:hover{
+ cursor: pointer;
+
+}
+.ft-5{
+    display: flex;
+    flex-direction: column;
+    gap:10px ;
+    margin-top: 143px;
+}
+.ft-6{
+    margin-top: 136px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.email{
+    width: 388px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 5px;
+border: 2px solid #D64374;
+}
+.emaill{
+    background-color: black;
+    border: none;
+    color: white;
+}
+.subscribe{
+    border-radius: 5px;
+    /* border: 2px solid #D64374; */
+    width: 125px;
+height: 55px;
+    color: white;
+    background-color:  #D23166;
+    border: none;
+}
+.subscribe:hover{
+    cursor: pointer;
+    background-color: rgb(202, 79, 120);
+}
